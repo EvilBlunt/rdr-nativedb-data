@@ -38385,37 +38385,41 @@
     },
     "0x30516389": {
       "name": "GET_OBJECT_NAMED_BONE_POSITION",
-      "comment": "",
+      "comment": "namedBone: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/BoneNames",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Object",
+          "name": "object"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "namedBone"
         },
         {
-          "type": "Any",
-          "name": "p2"
+          "type": "Vector3*",
+          "name": "position"
         }
       ],
       "return_type": "int"
     },
     "0xCAD543AD": {
       "name": "GET_OBJECT_NAMED_BONE_ORIENTATION",
-      "comment": "",
+      "comment": "namedBone: https://github.com/EvilBlunt/RDR-Strings-and-Enums/tree/main/BoneNames",
       "params": [
         {
-          "type": "Any",
-          "name": "p0"
+          "type": "Object",
+          "name": "object"
         },
         {
-          "type": "Any",
-          "name": "p1"
+          "type": "const char*",
+          "name": "namedBone"
+        },
+        {
+          "type": "Vector3*",
+          "name": "orientation"
         }
       ],
-      "return_type": "Any"
+      "return_type": "int"
     },
     "0x8C0E3E29": {
       "name": "TELEPORT_OBJECT_TO_OBJECT",
